@@ -8,7 +8,7 @@ OL_USER=vagrant
 
 # Set the locale to POSIX
 # Important to do this before installing postgresql
-update-locale LANG=en_US.UTF-8 LC_ALL=POSIX
+# DONE IN DOCKERFILE: update-locale LANG=en_US.UTF-8 LC_ALL=POSIX
 
 apt-get update
 
